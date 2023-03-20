@@ -11,7 +11,7 @@ should be written in English.
 
 The following katas and exercises (amongst other exercises of code review) will cover all the contents for this training course:
 
-- Word wrap kata
-- Template engine kata
-- Tic tac toe kata
-- Markdown kata
+- [Word wrap kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/word-wrap-kata/README.md)
+- [Template engine kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/template-engine-kata/README.md)
+- [Tic tac toe kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/tic-tac-toe-kata/README.md)
+- [Markdown kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/markdown-kata/README.md)
