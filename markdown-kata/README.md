@@ -5,7 +5,7 @@ This Kata will be done from scratch.
 In this kata the attendees will be able to put all the concepts in action and 
 check how to work with TDD, TPP, Unit tests, Integration tests, Mock and Software Design.
 
-- **Estimated time:** 2 hours
+- **Estimated time:** 3 hours
 - **Format:** Pairs
 - **Technologies:** Chosen by the attendees
 

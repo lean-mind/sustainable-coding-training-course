@@ -7,7 +7,7 @@ The code can be found in our repository
 [Tic tac toe](https://github.com/lean-mind/tictactoe-refactoring)
 
 
-- **Estimated time:** 1 hour
+- **Estimated time:** 2 hours
 - **Format:** Pairs
 - **Technologies:** Javascript and HTML+CSS
 

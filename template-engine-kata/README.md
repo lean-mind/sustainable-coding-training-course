@@ -7,7 +7,7 @@ put them together with Design Principles. We will see how to design artifacts an
 on outside-in TDD and inside-out TDD, the double loop and how to work with Integration tests.
 
 
-- **Estimated time:** 1 hour
+- **Estimated time:** 2 hours
 - **Format:** Pairs
 - **Technologies:** Chosen by the attendees
 

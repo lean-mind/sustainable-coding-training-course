@@ -17,3 +17,10 @@ The following katas and exercises (amongst other exercises of code review) will 
 - [Markdown kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/markdown-kata/README.md)
 - Code for study
   - [Savvily](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/code-for-study/README.md)
+
+
+If you like this workshop, please visit our website and subscribe to our newsletter:
+
+* [Leanmind.es](https://leanmind.es)
+
+We also recommend our online training, [testing sostenible](https://testingsostenible.com)
