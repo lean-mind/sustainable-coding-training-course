@@ -1,4 +1,4 @@
-# Code for study
+# Case study
 
 In the exercises below we will take a look at some code, and we will try to improve it making it more sustainable.
 
