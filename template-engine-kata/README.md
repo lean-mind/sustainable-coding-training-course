@@ -28,3 +28,5 @@ Output:
 ```
 - This template with one foo
 ```
+Note: Pay special attention to the edge cases like lack of variables or values and the use of complex data structures
+instead of strings.
