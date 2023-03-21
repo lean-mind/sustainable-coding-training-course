@@ -15,3 +15,5 @@ The following katas and exercises (amongst other exercises of code review) will 
 - [Template engine kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/template-engine-kata/README.md)
 - [Tic tac toe kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/tic-tac-toe-kata/README.md)
 - [Markdown kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/markdown-kata/README.md)
+- Code for study
+  - [Savvily](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/code-for-study/README.md)
