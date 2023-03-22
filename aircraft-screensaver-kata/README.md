@@ -1,4 +1,4 @@
-## Aircraft Screensaver Kata
+# Aircraft Screensaver Kata
 
 In this kata the attendees will take a look at the implemented code and will refactor it based on what they have
 learnt during the previous sessions.
@@ -11,24 +11,24 @@ to learn about design principles and TDD.
 - **Technologies:** Python
 
 
-### Install
+## Install locally
 
 Requires python3.10 or higher.
 
-#### Create virtual env for python3.10
+### Create virtual env for python3.10
 
 Move to the root folder of this repo and type:
 
 `python3.10 -m venv venv`
 
-#### Install dependencies
+### Install dependencies
 
 `source venv/bin/active`
 
 `pip install -r requirements.txt`
 
 
-#### Run unit tests with Docker
+## Run unit tests with Docker
 
 If you do not want to install the dependencies in your machine, you can implement code in your IDE anyway and run
 the tests through a docker container.
