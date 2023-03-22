@@ -1,4 +1,4 @@
-## MarkDown Kata
+# MarkDown Kata
 
 This Kata will be done from scratch.
 
@@ -9,7 +9,7 @@ check how to work with TDD, TPP, Unit tests, Integration tests, Mock and Softwar
 - **Format:** Pairs
 - **Technologies:** Chosen by the attendees
 
-### The Problem
+## The Problem
 
 The goal is to implement a command line tool that takes a markdown file and returns 
 another markdown file, applying certain transformations to the text.

@@ -1,4 +1,4 @@
-## Template Engine Kata
+# Template Engine Kata
 
 This Kata will be done from scratch.
 
@@ -11,7 +11,7 @@ on outside-in TDD and inside-out TDD, the double loop and how to work with Integ
 - **Format:** Pairs
 - **Technologies:** Chosen by the attendees
 
-### The Problem
+## The Problem
 
 We want to recreate a templating system which replaces a marked text using a 
 predefined dictionary. We will give two different inputs to this component: 

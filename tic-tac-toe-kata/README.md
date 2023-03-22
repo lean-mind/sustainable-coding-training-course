@@ -1,4 +1,4 @@
-## [Tictactoe Kata - Original repository](https://yelynn1.github.io/tictactoe/)
+# [Tictactoe Kata - Original repository](https://yelynn1.github.io/tictactoe/)
 
 Tic Tac Toe game (web version) made using HTML, JS.
 
