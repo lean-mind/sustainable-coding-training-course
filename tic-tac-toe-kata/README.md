@@ -2,10 +2,15 @@
 
 Tic Tac Toe game (web version) made using HTML, JS.
 
-Tasks:
+- **Estimated time:** 2 hours
+- **Format:** Pairs
+- **Technologies:** Javascript
+
+- Tasks:
 * Take a look at the code and design an automatic testing strategy.
 * Find maintenance problems in the code and prioritise how to fix them.
 * Refactor the code from this repository following the given testing approach. 
+
 
 ## Install locally
 

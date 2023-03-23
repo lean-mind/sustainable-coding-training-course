@@ -1,6 +1,7 @@
 # Welcome to the Sustainable Coding Training Course
 
-All the Katas that need to be done from scratch can be done using the following templates located on our public GitHub:
+All the Katas that need to be implemented from scratch can be done using the following templates located on our 
+public GitHub:
 
 [Coding dojo templates](https://github.com/lean-mind/coding-dojo-templates)
 
@@ -16,7 +17,7 @@ The following katas and exercises (amongst other exercises of code review) will 
 - [Tic tac toe kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/tic-tac-toe-kata/README.md)
 - [Markdown kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/markdown-kata/README.md)
 - [Aircraft Screensaver kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/aircraft-screensaver-kata/README.md)
-- Code for study
+- Case study
   - [Savvily](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/code-for-study/README.md)
 
 
