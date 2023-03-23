@@ -180,7 +180,7 @@
         <option value="hard">Hard</option>
     </select>
     <div class="div-end-of-game">
-        <button onclick="game.reset_board()">RESET BOARD</button>
+        <button onclick="window.game.reset_board()">RESET BOARD</button>
     </div>
     <h2 id="winner"></h2>
 </div>
@@ -188,7 +188,8 @@
 <script src="app.js"></script>
 
 <script>
-    var game = createGame();
-    game.start()</script>
+    window.game = createGame();
+    window.game.start()
+</script>
 </body>
 </html>
