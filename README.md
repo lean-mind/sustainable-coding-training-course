@@ -17,6 +17,7 @@ The following katas and exercises (amongst other exercises of code review) will 
 - [Tic tac toe kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/tic-tac-toe-kata/README.md)
 - [Markdown kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/markdown-kata/README.md)
 - [Aircraft Screensaver kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/aircraft-screensaver-kata/README.md)
+- [Surveillance System kata](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/surveillance-system-kata/README.md)
 - Case study
   - [Savvily](https://github.com/lean-mind/sustainable-coding-training-course/blob/main/code-for-study/README.md)
 
