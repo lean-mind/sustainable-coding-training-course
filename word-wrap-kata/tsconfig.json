@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2015", /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
+    "module": "es2015", // must be 'amd' or 'system' to use 'outFile'
+    "lib": ["es2015", "dom", "es5", "es6"], // must include some of these to suppress certain errors; adds the 'Set' type
+    "jsx": "react", // compile jsx to js
+    "sourceMap": true, // ensure debuggable
+    "moduleResolution": "node", // suppresses issue with `default` or `export`
+    "esModuleInterop": true,
+    "outDir": "./build", /* Redirect output structure to the directory. */
+    "strict": true, /* Enable all strict type-checking options. */
+    "noImplicitAny": true, /* Raise error on expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": true, /* Enable strict null checks. */
+    "strictFunctionTypes": true, /* Enable strict checking of function types. */
+    "noImplicitThis": true, /* Raise error on 'this' expressions with an implied 'any' type. */
+    "noUnusedLocals": true, /* Report errors on unused locals. */
+    "noUnusedParameters": true, /* Report errors on unused parameters. */
+    "noImplicitReturns": true, /* Report error when not all code paths in function return a value. */
+    "allowSyntheticDefaultImports": true, /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
+    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
+  }
+}

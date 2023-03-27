@@ -46,5 +46,7 @@ library, potentially used for a wide variety of problems. We can't anticipate al
 so it's important to handle all cases. 
 Please consider de cases of nulls, emptys, variables not found in the dictionary, variables not used 
 int the dictionary... 
+Consider the case of empty string as a key in the dictionary, and the case of values that are not
+convertible to string (not serializable)...
 How would you design the library in a way that is resilient, intuitive, and comfortable to use?
 
