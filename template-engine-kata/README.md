@@ -2,8 +2,8 @@
 
 ## The Problem
 
-We want to recreate a templating library which replaces certain marked text using a 
-predefined dictionary. We will give two different inputs to this component: 
+Develop a templating library which replaces certain marked text using a 
+ dictionary of variables. The function takes two arguments,  
 the template text and the dictionary. Expecting that the output will be the replaced 
 text.
 
@@ -39,5 +39,12 @@ Output:
 "And this is another text with another-value to be replaced."
 ```
 
-Note: Pay special attention to the edge cases like lack of variables or values and the use of complex data structures
-instead of strings.
+### Edge cases
+
+One of the more interesting aspects of this kata are the edge cases. This is going to be an open source
+library, potentially used for a wide variety of problems. We can't anticipate all the possible scenarios,
+so it's important to handle all cases. 
+Please consider de cases of nulls, emptys, variables not found in the dictionary, variables not used 
+int the dictionary... 
+How would you design the library in a way that is resilient, intuitive, and comfortable to use?
+
