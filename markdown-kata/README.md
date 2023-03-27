@@ -34,20 +34,39 @@ visible text link [^anchor1]
 
 The goal is to make conversions like the following:
 
+
+### Example 1: 
 Source:
 
-```
+```markdown
 [this book](https://codigosostenible.com) and some other text
 and some other text line.
 ```
 
 Transformation:
 
-```
+```markdown
 this book [^anchor1] and some other text 
 and some other text line.
 
 [^anchor1]: https://codigosostenible.com
 ```
 
-There are multiple edge cases to consider: multiple links per line, several links sharing the same url...
+### Example 2:
+
+Source:
+
+```markdown
+[this book](https://codigosostenible.com) and some other text and some [other](https://www.twitch.tv/codingiscaring) text line.
+```
+
+Transformation:
+
+```markdown
+this book [^anchor1] and some other text and some other [^anchor2] text line.
+
+[^anchor1]: https://codigosostenible.com
+[^anchor2]: https://www.twitch.tv/codingiscaring
+```
+
+Note: There are **multiple edge cases** to consider: multiple links per line, several links sharing the same url...
