@@ -6,7 +6,6 @@ export class App {
     controller.subscribeToEvents(
         aDocument, {
           columnWidthId:'column-width',
-          saveConfigId:'save-config',
           editorId: 'editor',
           applyId: 'do-word-wrap'})
   }
