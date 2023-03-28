@@ -19,13 +19,13 @@ describe('the word wrap editor', () => {
     const main = document.getElementById("main")
     const input = document.createElement("input")
     input.setAttribute("id", "column-width")
-    main!.appendChild(input)
+    main?.appendChild(input)
     const applyButton = document.createElement("button")
     applyButton.setAttribute("id", "do-word-wrap")
-    main!.appendChild(applyButton)
+    main?.appendChild(applyButton)
     const editor = document.createElement("textarea")
     editor.setAttribute("id", "editor")
-    main!.appendChild(editor)
+    main?.appendChild(editor)
   }
 
 });

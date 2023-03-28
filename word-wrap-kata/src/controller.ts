@@ -20,10 +20,10 @@ export class Controller {
         }
         console.log('Subscribing events...')
 
-        applyButton!.onclick = () => {
+        applyButton.onclick = () => {
             console.log('Button apply clicked');
-            console.log('ColumnWidth: ', columnWidthInput!.value);
-            console.log('Text: ', editorWidget!.value);
+            console.log('ColumnWidth: ', columnWidthInput.value);
+            console.log('Text: ', editorWidget.value);
         }
     }
 }
