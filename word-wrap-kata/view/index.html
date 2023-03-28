@@ -2,20 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Vanilla TS app</title>
+    <title>Word wrap</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div id="container">
     <h1>Word wrap text</h1>
-    <h2>Configuration</h2>
-    <label>Column width:</label>
+    <h3>Configuration</h3>
+    <label for="column-width">Column width:</label>
     <input type="text" id="column-width"/>
     <button id="save-config">Save configuration</button>
     <hr>
-    <h2>Editor:</h2>
-    <textarea id="editor">
+    <label for="editor">Editor:</label>
+    <textarea id="editor" cols="50" rows="15">
 
     </textarea>
     <button id="do-word-wrap">Apply word wrap</button>
+</div>
 </body>
 
 <script type="module" src="../build/src/init.js">

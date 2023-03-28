@@ -1,0 +1,75 @@
+/* Apply a margin and padding reset to the entire page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a background color to the body */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Center the h1 and h2 headings */
+h1, h2 {
+    text-align: center;
+}
+
+/* Style the "Configuration" heading */
+h2 {
+    margin-top: 40px;
+}
+
+/* Style the label and input elements */
+label {
+    display: block;
+    margin-top: 20px;
+}
+input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Style the Save Configuration button */
+#save-config {
+    display: block;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Add some spacing between the input elements and the hr */
+hr {
+    margin-top: 40px;
+}
+
+/* Style the label and textarea elements */
+label[for="editor"] {
+    display: block;
+    margin-top: 20px;
+}
+textarea {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Style the Apply Word Wrap button */
+#do-word-wrap {
+    display: block;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container {
+   padding: 20px 20px 20px 20px;
+}
