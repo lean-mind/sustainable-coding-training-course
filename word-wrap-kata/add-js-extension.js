@@ -1,7 +1,7 @@
 const replace = require('replace-in-file')
 const options = {
-    files: ['build/src/app.js', 'build/src/init.js'],
-    from: ['controller";', 'app";'],
-    to:   ['controller.js";', 'app.js";']
+    files: ['build/src/*.js'],
+    from: new RegExp(' from "(.*)";'),
+    to: (match) =>  [match.replace('";', "") + '.js";']
 }
 replace.sync(options)
