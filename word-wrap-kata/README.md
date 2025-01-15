@@ -11,10 +11,26 @@ You write a class called Wrapper, that has a single static function named wrap t
 
 ## Run tests
 
+You can run the tests by running:
+
 `npm run test`
+
+If you want to run the tests in watch mode, you can run:
+
+`npm run test:watch`
+
+Also, you can run the tests with coverage by running:
+
+`npm run test:coverage`
 
 ## Run in the browser
 
-`npm run build`
+You can start server in development (with hot reload) by running:
 
-Serve index.html file via a local webserver. IntelliJ and other IDEs provide you with a built-in lightweight web server for hmtl files, thus, you may just launch the browser from the IDE.
+`npm run dev`
+
+Or in production mode by running:
+
+`npm run serve`
+
+> No matter which command you run, you can access the application by clicking the link provided in the terminal.
