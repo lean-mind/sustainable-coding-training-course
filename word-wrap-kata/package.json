@@ -14,7 +14,7 @@
     "lint:fix": "npm run lint -- --fix",
     "test": "vitest run",
     "test:watch": "vitest --watch",
-    "test:coverage": "vitest --coverage",
+    "test:coverage": "vitest run --coverage",
     "prepare": "npm run build",
     "prestart": "npm run build",
     "build": "npm run lint && npm test && vite build",
