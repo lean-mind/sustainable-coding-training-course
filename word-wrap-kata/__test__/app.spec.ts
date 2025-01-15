@@ -1,8 +1,8 @@
 /**
- * @jest-environment jsdom
+ * @vitest-environment jsdom
  */
-
 import { App } from '../src/app';
+import {describe, expect, it} from "vitest";
 
 describe('the word wrap editor', () => {
   it('should initialize', () => {
