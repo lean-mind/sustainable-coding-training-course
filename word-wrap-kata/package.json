@@ -10,15 +10,17 @@
   ],
   "license": "ISC",
   "scripts": {
+    "type-check": "tsc --noEmit",
     "lint": "biome lint .",
     "lint:fix": "biome lint --write .",
     "format": "biome format --write .",
     "test": "vitest run",
     "test:watch": "vitest --watch",
     "test:coverage": "vitest run --coverage",
+    "ensure": "npm run type-check && npm run lint && npm test",
+    "build": "npm run ensure && vite build",
     "prepare": "npm run build",
     "prestart": "npm run build",
-    "build": "npm run lint && npm test && vite build",
     "serve": "npm run build && vite preview",
     "dev": "vite"
   },
