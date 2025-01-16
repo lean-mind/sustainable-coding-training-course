@@ -1,31 +1,30 @@
 /**
  * @vitest-environment jsdom
  */
-import { App } from '../src/app';
-import {describe, expect, it} from "vitest";
+import { App } from '../src/app'
+import { describe, expect, it } from 'vitest'
 
 describe('the word wrap editor', () => {
   it('should initialize', () => {
-    createVirtualDom();
+    createVirtualDom()
 
-    const app = new App();
+    const app = new App()
     app.initialize(document)
 
-    expect(app).not.toBeNull();
-  });
+    expect(app).not.toBeNull()
+  })
 
   function createVirtualDom() {
     document.body.innerHTML = '<div id="main"></div>'
-    const main = document.getElementById("main")
-    const input = document.createElement("input")
-    input.setAttribute("id", "column-width")
+    const main = document.getElementById('main')
+    const input = document.createElement('input')
+    input.setAttribute('id', 'column-width')
     main?.appendChild(input)
-    const applyButton = document.createElement("button")
-    applyButton.setAttribute("id", "do-word-wrap")
+    const applyButton = document.createElement('button')
+    applyButton.setAttribute('id', 'do-word-wrap')
     main?.appendChild(applyButton)
-    const editor = document.createElement("textarea")
-    editor.setAttribute("id", "editor")
+    const editor = document.createElement('textarea')
+    editor.setAttribute('id', 'editor')
     main?.appendChild(editor)
   }
-
-});
+})

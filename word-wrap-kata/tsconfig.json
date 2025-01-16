@@ -5,30 +5,28 @@
     "module": "ESNext",
     "lib": ["ES2023", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
-    "outDir": "./dist", /* Redirect output structure to the directory. */
+    "outDir": "./dist",
 
-    /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
 
-    /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-    "declaration": true, // generate .d.ts files
-    "sourceMap": true, // ensure debuggable
-    "noImplicitAny": true, /* Raise error on expressions and declarations with an implied 'any' type. */
-    "strictNullChecks": true, /* Enable strict null checks. */
-    "strictFunctionTypes": true, /* Enable strict checking of function types. */
-    "noImplicitThis": true, /* Raise error on 'this' expressions with an implied 'any' type. */
-    "noImplicitReturns": true, /* Report error when not all code paths in function return a value. */
-    "allowSyntheticDefaultImports": true, /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
-    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
+    "declaration": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"]
 }
