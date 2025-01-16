@@ -1,6 +1,7 @@
 .idea/
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 dist/
 coverage/
 .DS_Store
