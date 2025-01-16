@@ -1,7 +1,7 @@
 /**
  * @vitest-environment jsdom
  */
-import { App } from '../src/app'
+import { App } from '../app.ts'
 import { describe, expect, it } from 'vitest'
 
 describe('the word wrap editor', () => {
