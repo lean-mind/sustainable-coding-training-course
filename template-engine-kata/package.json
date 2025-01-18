@@ -1,0 +1,28 @@
+{
+  "name": "template-engine-kata",
+  "version": "0.0.1",
+  "description": "Template Engine Kata",
+  "contributors": [
+    "Adrián Ferrera <adrian.ferrera@leanmind.es>",
+    "Daniel Ramos <daniel.ramos@leanmind.es>",
+    "Miguel Ignacio Cabrera San Gil <miguel.cabrera@leanmind.es>",
+    "Carlos Ble <carlos@leanmind.es>"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "format": "biome format --write .",
+    "test": "vitest run",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest run --coverage",
+    "ensure": "npm run type-check && npm run lint && npm test"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@vitest/coverage-v8": "^2.1.8",
+    "typescript": "~5.7.3",
+    "vitest": "^2.1.8"
+  }
+}
