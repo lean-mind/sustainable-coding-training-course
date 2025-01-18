@@ -4,65 +4,65 @@ Tic Tac Toe game (web version) made using HTML, JS.
 
 - **Estimated time:** 2 hours
 - **Format:** Pairs
-- **Technologies:** Javascript
 
-- Tasks:
+### Tasks:
 * Take a look at the code and design an automatic testing strategy.
 * Find maintenance problems in the code and prioritise how to fix them.
-* Refactor the code from this repository following the given testing approach. 
+* Refactor the code from this repository following the given testing approach.
 
+## Setup
 
-## Installation
+Node v22 is required to run this project.
 
-If you want to install all dependencies in your machine you need to run in the terminal the command below:
+> 💡If you don't have it installed, we recommend the use of a version manager
+> like [_nvm_](https://github.com/nvm-sh/nvm) or [_fnm_](https://github.com/Schniz/fnm) (a cross-platform alternative to
+> _nvm_). After installing the manager, you can install the Node version by running: `nvm use` or `fnm use`.
 
-```bash
-npm install
-```
+Once you have Node installed, you can install the project dependencies by running:
 
-## Running unit tests
+`npm install`
 
-First, if you have not done it yet, add the following code at the beginning of every test file:
+### Plugins
 
-```python
-/**
- * @jest-environment jsdom
- */
-```
+This project uses the following plugins:
 
-Run in the terminal the command below:
+- [Vitest](https://vitest.dev/), a blazing fast test framework.
+- [Biome](https://biomejs.dev/), a toolchain for linting and formatting.
 
-```bash
-npm run test
-```
+> ℹ️ If VSCode is your editor of choice, you can install the recommended extensions.
 
-## Running end-to-end tests (e2e)
+## Run tests
 
-You will need to start an express server and run the test with cypress. 
-You can follow the next steps:
+You can run the tests by running:
 
-1. **Start express server.** Open a new terminal and run the following command:
+`npm run test`
 
-```bash
-npm run server
-```
+If you want to run the tests in watch mode, you can run:
 
-Note: the server will start. Leave it listening.
+`npm run test:watch`
 
+Also, you can run the tests with coverage by running:
 
-2. **Run tests.** Open another terminal and run the following command:
+`npm run test:coverage`
 
-```bash
-npm run e2e
-```
+## Run e2e tests
 
-In case you want to show the browser during the execution, run this command instead:
+You can run the e2e tests by running:
 
-```bash
-npm run e2e-browser
-```
+`npm run e2e`
 
+If you want to run the e2e tests displaying the browser, you can run:
 
-## Uninstall local dependencies
+`npm run e2e:ui`
 
-Delete `node_modules` folder
+## Run in the browser
+
+You can start server in development (with hot reload) by running:
+
+`npm run dev`
+
+Or in production mode by running:
+
+`npm run serve`
+
+> No matter which command you run, you can access the application by clicking the link provided in the terminal.
