@@ -28,6 +28,7 @@ This project uses the following plugins:
 
 - [Vitest](https://vitest.dev/), a blazing fast test framework.
 - [Biome](https://biomejs.dev/), a toolchain for linting and formatting.
+- [Playwright](https://playwright.dev/), a tool for end-to-end framework.
 
 > ℹ️ If VSCode is your editor of choice, you can install the recommended extensions.
 
