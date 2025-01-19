@@ -8,7 +8,7 @@
     "Miguel Ignacio Cabrera San Gil <miguel.cabrera@leanmind.es>",
     "Carlos Ble <carlos@leanmind.es>"
   ],
-  "license": "ISC",
+  "license": "UNLICENSED",
   "scripts": {
     "type-check": "tsc --noEmit",
     "lint": "biome lint .",

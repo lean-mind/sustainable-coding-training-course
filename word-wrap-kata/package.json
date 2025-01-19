@@ -8,7 +8,7 @@
     "Miguel Ignacio Cabrera San Gil <miguel.cabrera@leanmind.es>",
     "Carlos Ble <carlos@leanmind.es>"
   ],
-  "license": "ISC",
+  "license": "UNLICENSED",
   "scripts": {
     "type-check": "tsc --noEmit",
     "lint": "biome lint .",
@@ -19,8 +19,6 @@
     "test:coverage": "vitest run --coverage",
     "ensure": "npm run type-check && npm run lint && npm test",
     "build": "npm run ensure && vite build",
-    "prepare": "npm run build",
-    "prestart": "npm run build",
     "serve": "npm run build && vite preview",
     "dev": "vite"
   },
