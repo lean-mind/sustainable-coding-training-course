@@ -8,6 +8,7 @@
   ],
   "license": "UNLICENSED",
   "scripts": {
+    "prepare": "playwright install --with-deps",
     "type-check": "tsc --noEmit",
     "lint": "biome lint .",
     "lint:fix": "biome lint --write .",
