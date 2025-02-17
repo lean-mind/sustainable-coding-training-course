@@ -101,7 +101,7 @@ export function createGame(
       let compare: Comparator = (a, b) => a > b
       switch (ai_level) {
         case 'hard':
-          score = -Number.NEGATIVE_INFINITY
+          score = Number.NEGATIVE_INFINITY
           compare = (a, b) => a > b
           break
         case 'easy':
